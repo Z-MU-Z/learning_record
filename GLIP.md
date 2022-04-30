@@ -602,7 +602,7 @@ box torch.Size([3, 80, 100, 152]) torch.Size([3, 4, 100, 152]) torch.Size([3, 1,
 
 每张图会生成一些了的BoxLists
 
-![image-20220426164723896](C:\Users\thinkpad\AppData\Roaming\Typora\typora-user-images\image-20220426164723896.png)
+![image-20220426164723896](GLIP.assets/image-20220426164723896.png)
 
 
 
