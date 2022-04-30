@@ -579,7 +579,7 @@ VLFuse 类
 
 MHA-S 为单向只做T->I，MHA-B为双向
 
-![image-20220423121933799](C:\Users\thinkpad\AppData\Roaming\Typora\typora-user-images\image-20220423121933799.png)
+![image-20220423121933799](GLIP.assets/image-20220423121933799.png)
 
 box_cls, box_regression, centerness, token_logits, \
         proj_tokens, contrastive_logits, dot_product_logits, mlm_logits, shallow_img_emb_feats, fused_visual_features = self.head(features,
@@ -647,6 +647,6 @@ ln -s /public_dataset/1/COCO/val2017 /ceph-jd/pub/jupyter/zhumuzhi/notebooks/GLI
 
 ## RESULT
 
-![image-20220421131959553](C:\Users\thinkpad\AppData\Roaming\Typora\typora-user-images\image-20220421131959553.png)
+![image-20220421131959553](GLIP.assets/image-20220421131959553.png)
 
-![image-20220426194857540](C:\Users\thinkpad\AppData\Roaming\Typora\typora-user-images\image-20220426194857540.png)
+![image-20220426194857540](GLIP.assets/image-20220426194857540.png)
