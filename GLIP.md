@@ -81,10 +81,13 @@ Module for RPN computation. Takes feature maps from the backbone and RPN proposa
 
 ret = {
             "aggregate": aggregate,                     #3x256x768
-            "embedded": embedded,            #3x256x768
-            "masks": mask,                  #将padding部分标位0
-            "hidden": encoded_layers[-1]
-        }
+
+​            "embedded": embedded,            #3x256x768
+
+​            "masks": mask,                  #将padding部分标位0
+
+​            "hidden": encoded_layers[-1]
+​        }
 
 ### visual_backbone
 
@@ -97,8 +100,11 @@ SWINT_VL
 the backbone only update the "hidden" field, currently,对languge feature的hidden layer更新。
 
 [2022-04-23 12:00:32.903059] swin out torch.Size([3, 96, 200, 304])
+
 [2022-04-23 12:00:32.906505] swin out torch.Size([3, 192, 100, 152])
+
 [2022-04-23 12:00:32.913978] swin out torch.Size([3, 384, 50, 76])
+
 [2022-04-23 12:00:32.915966] swin out torch.Size([3, 768, 25, 38])
 
 输出也就是把不同层的feature提取出来。
@@ -223,7 +229,7 @@ For a set of image sizes and feature maps, computes a set of anchors
 
 ![image-20220426164723896](GLIP.assets/image-20220426164723896.png)![image-20220501145352261](GLIP.assets/image-20220501145352261.png)
 
-其内部记录的就是BOX位置的四个坐标吧，但具体这么做的意义是什么还不清楚
+其内部记录的就是BOX位置的四个坐标吧
 
 接下来就分为train和test
 
